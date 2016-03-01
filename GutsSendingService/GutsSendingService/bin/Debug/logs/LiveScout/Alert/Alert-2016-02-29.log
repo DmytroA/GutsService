@@ -1,0 +1,10 @@
+﻿2016-02-29 12:44:38,025 [IOLoop-LIVESCOUT] [WARN] |DU41uoSTBALCpghXoGb86oorF70=| Client disconnected - sending out bet stops for all matches
+2016-02-29 18:14:34,950 [IOLoop-LIVESCOUT] [WARN] |4UgdxyCV3zVRGfc19ROU1T8S5vI=| TCP server read timeout - reconnecting
+2016-02-29 18:14:34,950 [IOLoop-LIVESCOUT] [WARN] |tqvw/jXlUa7kNXQB4YIatavnWug=| Client disconnected - sending out bet stops for all matches
+2016-02-29 18:44:19,308 [8] [WARN] |aTAxGauCEMInTvvVw+BQrqBg0CU=| Scout[LIVESCOUT] Could not send user request to server because connection is currently offline
+2016-02-29 18:44:30,278 [IOLoop-LIVESCOUT] [WARN] |hAZCfmlz5kHrFb9H/9v1iFmFGLw=| TCP connection error, fatal False
+System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 91.201.213.30:2017
+   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at Sportradar.SDK.ConnectionProviders.TcpConnectionProvider.EstablishConnection(Boolean use_ssl, String hostname, Int32 port) in c:\Projects\sdk net 2.0\src\SDK\ConnectionProviders\GenericConnectionProvider\TcpConnectionProvider.cs:line 520
+   at Sportradar.SDK.ConnectionProviders.TcpConnectionProvider.HandleConnection() in c:\Projects\sdk net 2.0\src\SDK\ConnectionProviders\GenericConnectionProvider\TcpConnectionProvider.cs:line 798
+   at Sportradar.SDK.ConnectionProviders.TcpConnectionProvider.IOLoop() in c:\Projects\sdk net 2.0\src\SDK\ConnectionProviders\GenericConnectionProvider\TcpConnectionProvider.cs:line 228

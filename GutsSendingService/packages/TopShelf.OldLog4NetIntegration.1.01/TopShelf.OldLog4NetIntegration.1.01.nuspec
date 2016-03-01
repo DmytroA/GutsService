@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>TopShelf.OldLog4NetIntegration</id>
+    <version>1.01</version>
+    <title>TopShelf.OldLog4NetIntegration</title>
+    <authors>Mike Chamberlain</authors>
+    <owners>Mike Chamberlain</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The current version of TopShelf.Log4NetIntegration requires log4net v2. This package allows us to integrate against the popular older version of 1.2.10. This is especially useful if we are also using Castle log4net integration, as this does not work with version 2. Example usage: x.UseOldLog4Net();</description>
+    <releaseNotes>Removed dependency on .NET 4 - now only required .NET 3.5.</releaseNotes>
+    <dependencies>
+      <dependency id="log4net" version="[1.2.10]" />
+      <dependency id="Topshelf" version="3.1.2" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,9 @@
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\DataLayer\bin\Debug\DataLayer.dll.config
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\DataLayer\obj\Debug\DataLayer.pdb

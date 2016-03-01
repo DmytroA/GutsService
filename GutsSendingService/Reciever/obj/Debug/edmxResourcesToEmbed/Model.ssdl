@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GutsLiveScoutModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="MatchBookingReply">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MatchId" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Message" Type="nvarchar(max)" />
+    <Property Name="Result" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="MatchStop">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MatchId" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Reason" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="MatchUpdate">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BetStatus" Type="nvarchar" MaxLength="50" />
+    <Property Name="MatchId" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="MatchUpdateFullEntity">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MatchId" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="AttacksTeam1" Type="int" />
+    <Property Name="AttacksTeam2" Type="int" />
+    <Property Name="RedCardsTeam1" Type="int" />
+    <Property Name="RedCardsTeam2" Type="int" />
+    <Property Name="PossessionTeam1" Type="int" />
+    <Property Name="PossessionTeam2" Type="int" />
+  </EntityType>
+  <EntityType Name="OddSuggestion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OddLength" Type="int" />
+    <Property Name="MatchId" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="ScoutInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ScoutInfoLength" Type="int" />
+    <Property Name="MatchId" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="GutsLiveScoutModelStoreContainer">
+    <EntitySet Name="MatchBookingReply" EntityType="Self.MatchBookingReply" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MatchStop" EntityType="Self.MatchStop" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MatchUpdate" EntityType="Self.MatchUpdate" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MatchUpdateFullEntity" EntityType="Self.MatchUpdateFullEntity" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OddSuggestion" EntityType="Self.OddSuggestion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ScoutInfo" EntityType="Self.ScoutInfo" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

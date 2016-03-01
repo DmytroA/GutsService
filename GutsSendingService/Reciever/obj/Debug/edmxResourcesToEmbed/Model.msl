@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GutsLiveScoutModelStoreContainer" CdmEntityContainer="GutsLiveScoutEntities">
+    <EntitySetMapping Name="OddSuggestion">
+      <EntityTypeMapping TypeName="GutsLiveScoutModel.OddSuggestion">
+        <MappingFragment StoreEntitySet="OddSuggestion">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="OddLength" ColumnName="OddLength" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScoutInfo">
+      <EntityTypeMapping TypeName="GutsLiveScoutModel.ScoutInfo">
+        <MappingFragment StoreEntitySet="ScoutInfo">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="ScoutInfoLength" ColumnName="ScoutInfoLength" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MatchUpdate">
+      <EntityTypeMapping TypeName="GutsLiveScoutModel.MatchUpdate">
+        <MappingFragment StoreEntitySet="MatchUpdate">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="BetStatus" ColumnName="BetStatus" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MatchUpdateFullEntity">
+      <EntityTypeMapping TypeName="GutsLiveScoutModel.MatchUpdateFullEntity">
+        <MappingFragment StoreEntitySet="MatchUpdateFullEntity">
+          <ScalarProperty Name="PossessionTeam2" ColumnName="PossessionTeam2" />
+          <ScalarProperty Name="PossessionTeam1" ColumnName="PossessionTeam1" />
+          <ScalarProperty Name="RedCardsTeam2" ColumnName="RedCardsTeam2" />
+          <ScalarProperty Name="RedCardsTeam1" ColumnName="RedCardsTeam1" />
+          <ScalarProperty Name="AttacksTeam2" ColumnName="AttacksTeam2" />
+          <ScalarProperty Name="AttacksTeam1" ColumnName="AttacksTeam1" />
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MatchStop">
+      <EntityTypeMapping TypeName="GutsLiveScoutModel.MatchStop">
+        <MappingFragment StoreEntitySet="MatchStop">
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MatchBookingReply">
+      <EntityTypeMapping TypeName="GutsLiveScoutModel.MatchBookingReply">
+        <MappingFragment StoreEntitySet="MatchBookingReply">
+          <ScalarProperty Name="Result" ColumnName="Result" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
