@@ -16,3 +16,21 @@ C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\GutsSe
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\GutsSendingService\obj\Debug\Guts.SendingService.csprojResolveAssemblyReference.cache
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\GutsSendingService\obj\Debug\GutsSendingService.exe
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\GutsSendingService\obj\Debug\GutsSendingService.pdb
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\bin\Debug\GutsSendingService.exe.config
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\bin\Debug\GutsSendingService.exe
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\bin\Debug\GutsSendingService.pdb
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\bin\Debug\BookmakerSdk.dll
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\bin\Debug\Guts.Core.dll
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\bin\Debug\log4net.dll
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\bin\Debug\Newtonsoft.Json.dll
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\bin\Debug\RabbitMQ.Client.dll
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\bin\Debug\Topshelf.dll
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\bin\Debug\Guts.Core.pdb
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\bin\Debug\BookmakerSdk.pdb
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\bin\Debug\BookmakerSdk.xml
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\bin\Debug\log4net.xml
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\bin\Debug\Newtonsoft.Json.xml
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\bin\Debug\RabbitMQ.Client.xml
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\obj\Debug\Guts.SendingService.csprojResolveAssemblyReference.cache
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\obj\Debug\GutsSendingService.exe
+D:\Guts\GutsService\GutsService\GutsSendingService\GutsSendingService\obj\Debug\GutsSendingService.pdb

@@ -8,11 +8,14 @@ using Newtonsoft.Json;
 using Guts.Core.Entities;
 using Topshelf;
 using Reciever;
+using log4net.Config;
 
 public class RecieveMain 
 {
     public static void Main()
     {
+        XmlConfigurator.Configure();
+
         HostFactory.Run(hostConfigurator =>
         {
             hostConfigurator.Service<RecieveQueueJson>(serviceConfigurator =>

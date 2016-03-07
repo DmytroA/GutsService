@@ -16,7 +16,7 @@ namespace Reciever
             
         }
         public DbSet<LiveScoutEntity> LiveScouts { get; set; }
-        public DbSet<LiveScoutEventTypyEntity> LiveScoutEvents { get; set; }
+        public DbSet<LiveScoutEventTypeEntity> LiveScoutEvents { get; set; }
         public DbSet<LiveScoutJsonEntity> LiveScoutJsons { get; set; }
     }
 }

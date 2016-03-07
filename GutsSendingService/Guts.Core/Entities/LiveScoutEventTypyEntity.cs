@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace Guts.Core.Entities
 {
-    [Table("LiveScoutEventTypy")]
-    public class LiveScoutEventTypyEntity
+    [Table("LiveScoutEventType")]
+    public class LiveScoutEventTypeEntity
     {
         [Key]
         public int Id { get; set; }

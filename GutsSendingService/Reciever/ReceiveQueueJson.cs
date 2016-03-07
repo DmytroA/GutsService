@@ -40,10 +40,10 @@ namespace Reciever
                 {
                     var body = ea.Body;
                     var json = Encoding.UTF8.GetString(body);
-                    if (json != null)
-                    {
-                        //SaveToFile(json);
-                    }
+                    //if (json != null)
+                    //{
+                    //    SaveToFile(json);
+                    //}
                     var odds = JsonConvert.DeserializeObject<LiveScoutEntity>(json);
 
                     if (odds != null)
@@ -65,11 +65,10 @@ namespace Reciever
         }
         public void Stop()
         {
-
+            Console.ReadLine();
         }
         public void SaveOdds(LiveScoutEntity entity)
         {
-
             try
             {
                 if (entity != null)
@@ -84,14 +83,14 @@ namespace Reciever
             }
 
         }
-        public void SaveToFile(string json)
-        {
-            using (System.IO.StreamWriter file =
-                    new System.IO.StreamWriter(@"D:\Guts\WriteJson.txt", true))
-            {
-                file.WriteLine(json);
-            }
-        }
+        //public void SaveToFile(string json)
+        //{
+        //    using (System.IO.StreamWriter file =
+        //            new System.IO.StreamWriter(@"D:\WriteJson.txt", true))
+        //    {
+        //        file.WriteLine(json);
+        //    }
+        //}
         public void Dispose()
         {
             context.Dispose();

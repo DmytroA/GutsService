@@ -39,7 +39,7 @@ namespace Guts.Core.Entities
         public int EventTypeId { get; set; }
 
         [ForeignKey("EventTypeId")]
-        public LiveScoutEventTypyEntity Event { get; set; }
+        public LiveScoutEventTypeEntity Event { get; set; }
 
         [ForeignKey("LiveScoutJsonId")]
         public LiveScoutJsonEntity Json { get; set; }

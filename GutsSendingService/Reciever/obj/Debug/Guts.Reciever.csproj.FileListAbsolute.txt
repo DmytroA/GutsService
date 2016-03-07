@@ -20,3 +20,28 @@ C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciev
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\obj\Debug\Reciever.pdb
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\obj\Debug\Reciever.Migrations.InitialCreate.resources
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\obj\Debug\Guts.Reciever.csproj.GenerateResource.Cache
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\Reciever.exe.config
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\Reciever.exe
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\Reciever.pdb
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\EntityFramework.dll
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\EntityFramework.SqlServer.dll
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\Guts.Core.dll
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\Newtonsoft.Json.dll
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\RabbitMQ.Client.dll
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\Topshelf.dll
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\BookmakerSdk.dll
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\Guts.Core.pdb
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\EntityFramework.xml
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\EntityFramework.SqlServer.xml
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\Newtonsoft.Json.xml
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\RabbitMQ.Client.xml
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\BookmakerSdk.pdb
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\BookmakerSdk.xml
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\obj\Debug\Guts.Reciever.csprojResolveAssemblyReference.cache
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\obj\Debug\Reciever.Migrations.InitialCreate.resources
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\obj\Debug\Guts.Reciever.csproj.GenerateResource.Cache
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\obj\Debug\Reciever.exe
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\obj\Debug\Reciever.pdb
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\obj\Debug\Reciever.Migrations.ChangeNameEventType.resources
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\log4net.dll
+D:\Guts\GutsService\GutsService\GutsSendingService\Reciever\bin\Debug\log4net.xml
