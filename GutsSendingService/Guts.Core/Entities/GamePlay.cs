@@ -11,13 +11,21 @@ namespace Guts.Core.Entities
 {
     [JsonConverter(typeof(StringEnumConverter))]
     public enum GameType {
-        LineUps,
+        LineUps = 1,
         MatchBookingReply,
         MatchStop,
         MatchUpdate,
         MatchUpdateFull,
         OddsSuggestion,
-        ScoutInfo
+        ScoutInfo,
+        MatchUpdateDelta,
+        FeedError,
+        MatchData,
+        MatchUpdateDeltaUpdate,
+        MatchList,
+        OpenedHandler,
+        ClosedHandler,
+        MatchListUpdate
     }
 
     [JsonConverter(typeof(GamePlayJsonConverter))]

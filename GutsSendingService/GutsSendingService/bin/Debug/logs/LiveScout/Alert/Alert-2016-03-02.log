@@ -1,0 +1,7 @@
+﻿2016-03-02 15:07:52,579 [9] [WARN] |Y+HjDFd1fl8F72G8oxdMUi2d6zw=| Scout[LIVESCOUT] Could not send user request to server because connection is currently offline
+2016-03-02 16:42:44,469 [IOLoop-LIVESCOUT] [WARN] |x96Qf5iIcxles55YspXPYUWgEnE=| TCP connection error, fatal False
+System.IO.IOException: SSL stream disconnected due to timeout
+   at Sportradar.SDK.Common.Utils.StreamWrapper.Read(Byte[] buffer, Int32 offset, Int32 count) in c:\Projects\sdk net 2.0\src\SDK\Common\Utils\StreamWrapper.cs:line 197
+   at Sportradar.SDK.ConnectionProviders.TcpConnectionProvider.HandleConnection() in c:\Projects\sdk net 2.0\src\SDK\ConnectionProviders\GenericConnectionProvider\TcpConnectionProvider.cs:line 857
+   at Sportradar.SDK.ConnectionProviders.TcpConnectionProvider.IOLoop() in c:\Projects\sdk net 2.0\src\SDK\ConnectionProviders\GenericConnectionProvider\TcpConnectionProvider.cs:line 228
+2016-03-02 16:42:44,479 [IOLoop-LIVESCOUT] [WARN] |jtBw+y5cRBc/Qm0CBtuyRt/bqm4=| Client disconnected - sending out bet stops for all matches

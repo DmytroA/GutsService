@@ -62,8 +62,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GamePlayDataContext.cs" />
-    <Compile Include="Interface\IReceive.cs" />
-    <Compile Include="RecieveJson.cs" />
+    <Compile Include="Migrations\201603040955279_InitialCreate.cs" />
+    <Compile Include="Migrations\201603040955279_InitialCreate.Designer.cs">
+      <DependentUpon>201603040955279_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="ReceiveQueueJson.cs" />
+    <Compile Include="RecieveMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -78,6 +83,11 @@
       <Project>{34c367ec-0ed3-44a0-b4d1-80e88f90db98}</Project>
       <Name>Guts.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201603040955279_InitialCreate.resx">
+      <DependentUpon>201603040955279_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

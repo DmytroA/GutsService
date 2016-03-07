@@ -30,11 +30,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BookmakerSdk">
+      <HintPath>D:\Guts\BR DOcs\SdkDemoProject-2.3.6.0\libs\BookmakerSdk.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.8.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,13 +47,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\ClosedHandlerEntity.cs" />
+    <Compile Include="Entities\FeedErrorEntity.cs" />
     <Compile Include="Entities\GamePlay.cs" />
     <Compile Include="Entities\LineUpsEntity.cs" />
+    <Compile Include="Entities\LiveScoutEntity.cs" />
+    <Compile Include="Entities\LiveScoutEventTypyEntity.cs" />
+    <Compile Include="Entities\LiveScoutJsonEntity.cs" />
     <Compile Include="Entities\MatchBookingReply.cs" />
+    <Compile Include="Entities\MatchDataEntity.cs" />
+    <Compile Include="Entities\MatchListEntity.cs" />
+    <Compile Include="Entities\MatchListUpdateEntity.cs" />
     <Compile Include="Entities\MatchStopEntity.cs" />
+    <Compile Include="Entities\MatchUpdateDeltaEntity.cs" />
+    <Compile Include="Entities\MatchUpdateDeltaUpdateEntity.cs" />
     <Compile Include="Entities\MatchUpdateEntity.cs" />
     <Compile Include="Entities\MatchUpdateFullEntity.cs" />
     <Compile Include="Entities\OddsSuggestionEntity.cs" />
+    <Compile Include="Entities\OpenedHandlerEntity.cs" />
     <Compile Include="Entities\ScoutInfoEntity.cs" />
     <Compile Include="Infrastructure\GamePlayJsonConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

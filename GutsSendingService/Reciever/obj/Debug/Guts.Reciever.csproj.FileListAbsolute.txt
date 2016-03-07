@@ -1,6 +1,3 @@
-C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\obj\Debug\Guts.Reciever.csprojResolveAssemblyReference.cache
-C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\obj\Debug\Reciever.exe
-C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\obj\Debug\Reciever.pdb
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\bin\Debug\Reciever.exe.config
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\bin\Debug\Reciever.exe
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\bin\Debug\Reciever.pdb
@@ -10,8 +7,16 @@ C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciev
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\bin\Debug\Newtonsoft.Json.dll
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\bin\Debug\RabbitMQ.Client.dll
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\bin\Debug\Topshelf.dll
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\bin\Debug\BookmakerSdk.dll
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\bin\Debug\Guts.Core.pdb
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\bin\Debug\EntityFramework.xml
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\bin\Debug\Newtonsoft.Json.xml
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\bin\Debug\RabbitMQ.Client.xml
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\bin\Debug\BookmakerSdk.pdb
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\bin\Debug\BookmakerSdk.xml
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\obj\Debug\Guts.Reciever.csprojResolveAssemblyReference.cache
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\obj\Debug\Reciever.exe
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\obj\Debug\Reciever.pdb
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\obj\Debug\Reciever.Migrations.InitialCreate.resources
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Reciever\obj\Debug\Guts.Reciever.csproj.GenerateResource.Cache

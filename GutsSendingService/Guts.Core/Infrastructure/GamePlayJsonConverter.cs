@@ -13,7 +13,7 @@ namespace Guts.Core.Infrastructure
     {
         public override bool CanConvert(Type objectType)
         {
-            return typeof(IGamePlay).IsAssignableFrom(objectType);
+            return typeof(LiveScoutEntity).IsAssignableFrom(objectType);
         }
 
         public override object ReadJson(JsonReader reader,
@@ -22,41 +22,16 @@ namespace Guts.Core.Infrastructure
                                          JsonSerializer serializer)
         {
 
-            IGamePlay target = null;
-            // Load JObject from stream
-            JObject jObject = JObject.Load(reader);
-            var prop = jObject.Property("Type");
-            var type = (GameType)Enum.Parse(typeof(GameType), prop.Value.ToString());
-            switch (type)
-            { 
-                case GameType.LineUps:
-                    target = new LineUpsEntity();
-                    break;
-                case GameType.MatchBookingReply:
-                    target = new MatchBookingReply();
-                    break;
-                case GameType.MatchStop: 
-                    target = new MatchStopEntity();
-                    break;
-                case GameType.MatchUpdate:
-                    target = new MatchUpdateEntity();
-                    break;
-                case GameType.MatchUpdateFull:
-                    target = new MatchUpdateFullEntity();
-                    break;
-                case GameType.OddsSuggestion:
-                    target = new OddsSuggestionEntity();
-                    break;
-                case GameType.ScoutInfo:
-                    target = new ScoutInfoEntity();
-                    break;
-            }
-            serializer.Populate(jObject.CreateReader(), target);
+            LiveScoutEntity target = new LiveScoutEntity();
 
+            JObject jObject = JObject.Load(reader);
+            serializer.Populate(jObject.CreateReader(), target);
+            target.Json = new LiveScoutJsonEntity
+            {
+                Data = jObject.ToString()
+            };
             return target;
         }
-
-
         public override bool CanWrite
         {
             get

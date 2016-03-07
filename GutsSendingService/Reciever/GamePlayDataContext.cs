@@ -15,12 +15,8 @@ namespace Reciever
         {
             
         }
-        public DbSet<LineUpsEntity> LineUps { get; set; }
-        public DbSet<MatchBookingReply> MatchBookingReplies { get; set; }
-        public DbSet<MatchStopEntity> MatchStops { get; set; }
-        public DbSet<MatchUpdateEntity> MatchUpdates { get; set; }
-        public DbSet<MatchUpdateFullEntity> MatchUpdateFulls { get; set; }
-        public DbSet<OddsSuggestionEntity> OddsSuggestions { get; set; }
-        public DbSet<ScoutInfoEntity> ScoutInfos { get; set; }
+        public DbSet<LiveScoutEntity> LiveScouts { get; set; }
+        public DbSet<LiveScoutEventTypyEntity> LiveScoutEvents { get; set; }
+        public DbSet<LiveScoutJsonEntity> LiveScoutJsons { get; set; }
     }
 }

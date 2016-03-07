@@ -1,6 +1,9 @@
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Guts.Core\bin\Debug\Guts.Core.dll
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Guts.Core\bin\Debug\Guts.Core.pdb
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Guts.Core\bin\Debug\BookmakerSdk.dll
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Guts.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Guts.Core\bin\Debug\BookmakerSdk.pdb
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Guts.Core\bin\Debug\BookmakerSdk.xml
+C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Guts.Core\bin\Debug\Newtonsoft.Json.xml
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Guts.Core\obj\Debug\Guts.Core.dll
 C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Guts.Core\obj\Debug\Guts.Core.pdb
-C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Guts.Core\bin\Debug\Newtonsoft.Json.dll
-C:\Users\DmytroA\Documents\Visual Studio 2013\Projects\GutsSendingService\Guts.Core\bin\Debug\Newtonsoft.Json.xml

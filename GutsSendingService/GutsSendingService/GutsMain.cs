@@ -36,8 +36,8 @@ namespace Guts.SendingService
                 x.RunAsLocalSystem();
 
                 x.SetDescription("Guts Topshelf Host");
-                x.SetDisplayName("Guts");
-                x.SetServiceName("Guts");
+                x.SetDisplayName("GutsLiveScoutSendingQueue");
+                x.SetServiceName("GutsLiveScoutSendingQueue");
             });
             
         }

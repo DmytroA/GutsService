@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,10 +13,11 @@ namespace Guts.Core.Entities
         {
             this.Type = GameType.MatchStop;
         }
-        public int Id { get; set; }
+        public GameType Type { get; private set; }
         public long MatchId { get; set; }
         public string Reason { get; set; }
-        public GameType Type { get; private set; }
+        public DateTime Timestamp { get; set; }
+
 
 
     }
